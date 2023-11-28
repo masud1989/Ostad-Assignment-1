@@ -1,15 +1,7 @@
 import Link from "next/link";
-import StatList from "./StatList";
-import WorksList from "./WorksList";
-import { BiSolidArrowToRight, BiSolidMehAlt } from "react-icons/bi";
 import { GoProjectTemplate } from "react-icons/go";
 import { BsArrowRight } from "react-icons/bs";
 
-// import Link from "next/link";
-// import { BsImages, BsArrowRight   } from "react-icons/bs";
-// import { FaHeartBroken } from "react-icons/fa";
-// import { CgShoppingBag } from "react-icons/cg";
-// import StatList from "./StatList";
 
 async function getData() {
   const res = await fetch(process.env.BASE_URL + "api/WorkList");

@@ -1,16 +1,17 @@
+import FeaturedProject from '@/components/FeaturedProject'
 import Hero from '@/components/Hero'
 import StatList from '@/components/StatList'
+import Subscribe from '@/components/Subscribe'
 import WorkList from '@/components/WorkList'
-import WorksList from '@/components/WorksList'
-import Image from 'next/image'
 
 export default function Home() {
   return (
     <>
       <Hero />
-      {/* <WorksList /> */}
       <WorkList />
       <StatList />
+      <FeaturedProject />
+      <Subscribe />
     </>
   )
 }
