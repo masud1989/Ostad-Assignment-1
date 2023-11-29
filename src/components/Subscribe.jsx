@@ -24,9 +24,8 @@ const Subscribe = () => {
           
           <input
             type="search"
-   
             class=" w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-slate-500 focus:border-gray-900 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500"
-            placeholder="Enter Your Email "
+            placeholder="Enter Your Email Address"
             required
           />
           <button
