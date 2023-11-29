@@ -17,7 +17,7 @@ const StatList = async () => {
   const data = await getData()
 
   return (
-    <section className="py-20">
+    <section className="py-20 bg-white">
     <div className="container mx-auto px-2">
         <div className="mb-5 flex gap-2">
             <div className="w-full md:w-1/2 lg:w-1/4 text-center shadow-2xl">

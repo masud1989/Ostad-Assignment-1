@@ -60,13 +60,13 @@ const Hero = async () => {
                        
                     </div>
                      {/* Brand Data  */}
-                     <div className="bg-white flex flex-wrap p-5">
+                     <div className="bg-white flex flex-wrap p-8">
                     {
                         brandData.map((item,i)=>{
                           return(
                               <div key={i} className="mb-12 lg:mb-0 w-full md:w-1/2 lg:w-1/4 px-2">
                                   <div>
-                                      <img className="mx-auto h-8" src={item['image']} alt=""/>
+                                      <img className="mx-auto h-8 rounded-lg" src={item['image']} alt=""/>
                                   </div>
                               </div>
                           )
