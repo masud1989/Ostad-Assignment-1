@@ -1,3 +1,5 @@
+import moment from "moment/moment";
+
 async function getData(){
   const res=await fetch(process.env.BASE_URL+"api/FeaturedProject");
   if(!res.ok){
@@ -79,6 +81,7 @@ const FeaturedProject = async () => {
                   />
                   <p className="text-sm text-gray-400">
                     {data[4]["remark"]}-{data[4]["created_at"]}
+                    moment().format("MMM Do YY")
                   </p>
                   <h3 className="text-sm font-bold">{data[4]["title"]}</h3>
                 </div>
