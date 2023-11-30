@@ -57,10 +57,6 @@ United Arab Emirate</p>
                   </div>
                 
 
-
-
-                    
-
                      {/* Footer Title Down  */}
                     <div className="mx-10 mt-8 mb-0 flex flex-wrap justify-between items-center">
                         <p className="order-last text-md text-white">Copyright Design Agency 2022
