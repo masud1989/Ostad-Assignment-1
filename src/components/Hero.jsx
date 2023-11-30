@@ -21,7 +21,8 @@ const Hero = async () => {
   const  data = await getData()
   const  brandData = await getBrandData()
   return (
-    <div>
+    
+    <div className="my-20">
             <section className='relative bg-green-200'>
                 <div className='relative pt-12 lg:pt-20 pb-20 z-10'>
                     <div className='container mx-auto px-4'>

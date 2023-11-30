@@ -1,5 +1,6 @@
 import FeaturedProject from '@/components/FeaturedProject'
 import Hero from '@/components/Hero'
+import MainMenu from '@/components/MainMenu'
 import StatList from '@/components/StatList'
 import Subscribe from '@/components/Subscribe'
 import WorkList from '@/components/WorkList'
@@ -7,6 +8,7 @@ import WorkList from '@/components/WorkList'
 export default function Home() {
   return (
     <>
+      
       <Hero />
       <WorkList />
       <StatList />
