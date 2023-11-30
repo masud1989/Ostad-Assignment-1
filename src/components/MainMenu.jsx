@@ -50,9 +50,9 @@ const MainMenu = () => {
   return (
 
 
-    <div className="bg-green-500">
+    <div className="">
       <nav className=" navbar fixed-top relative px-6 py-6">
-        <a className="text-3xl font-bold leading-none" href="#">
+        <a className="mx-20 text-3xl font-bold leading-none" href="#">
           <span>Design</span>
           <span className="text-orange-400">Agency</span>
         </a>
@@ -74,6 +74,8 @@ const MainMenu = () => {
           </button>
         </div>
         <ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-50 lg:flex lg:items-center lg:w-auto lg:space-x-6 lg:justify-end">
+          
+          
           <li className="ms-20">
             <Link
               className={
